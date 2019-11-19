@@ -5,12 +5,6 @@
 </head>
 <body>
 	{{ block "main" . }}{{ end }}
-	{{- range .Site.RegularPages }}
-	<h1>
-		<a href = '{{ .Permalink }}'>{{ .Title }}</a>
-		<br><br>
-	</h1>
-	{{- end }}
 	{{ partial "scripts.html" . }}
 </body>
 </html>

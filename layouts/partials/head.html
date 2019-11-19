@@ -6,5 +6,10 @@
 <meta data-n-head="ssr" name="format-detection" content="telephone=no">
 <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico">
 {{ range .Params.styles }}
-<link rel="stylesheet" href="{{ . }}.css">
+<link rel="stylesheet" href="/css/{{ . }}.css">
 {{ end }}
+<style>
+  .nav-item.has-dropdown:hover .nav-dropdown {
+    display: initial !important;
+  }
+</style>
