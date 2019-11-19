@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="33" viewBox="0 0 27 33">
+  <defs>
+    <linearGradient id="svg-ico-pdf-ext-c" x1="50%" x2="50%" y1="34.71%" y2="1.732%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F4F4F4"/>
+    </linearGradient>
+    <path id="svg-ico-pdf-ext-b" d="M22,1 L28,7 L28,28.5 C28,29.3284271 27.3284271,30 26.5,30 L7.5,30 C6.67157288,30 6,29.3284271 6,28.5 L6,2.5 C6,1.67157288 6.67157288,1 7.5,1 L22,1 Z"/>
+    <filter id="svg-ico-pdf-ext-a" width="127.3%" height="120.7%" x="-13.6%" y="-6.9%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-3)">
+    <use fill="#000" filter="url(#svg-ico-pdf-ext-a)" xlink:href="#svg-ico-pdf-ext-b"/>
+    <path fill="url(#svg-ico-pdf-ext-c)" stroke="#666" stroke-opacity=".4" d="M22.2071068,0.5 L28.5,6.79289322 L28.5,28.5 C28.5,29.6045695 27.6045695,30.5 26.5,30.5 L7.5,30.5 C6.3954305,30.5 5.5,29.6045695 5.5,28.5 L5.5,2.5 C5.5,1.3954305 6.3954305,0.5 7.5,0.5 L22.2071068,0.5 Z"/>
+    <path fill="#000" d="M28,7 L23.5,7 C22.6715729,7 22,6.32842712 22,5.5 L22,1 L28,7 Z" opacity=".15"/>
+    <g transform="translate(3 8)">
+      <rect width="16" height="16" fill="#EB5E5E" rx="2.2"/>
+      <path fill="#FFF" d="M7,11 L7,12.2 C7,12.6418278 6.6418278,13 6.2,13 L5,13 C3.8954305,13 3,12.1045695 3,11 C3,9.8954305 3.8954305,9 5,9 L9.5,9 C10.8807119,9 12,7.88071187 12,6.5 C12,5.11928813 10.8807119,4 9.5,4 L7.2,4 C7.08954305,4 7,4.08954305 7,4.2 L7,8 C7,8.27614237 6.77614237,8.5 6.5,8.5 C6.22385763,8.5 6,8.27614237 6,8 L6,3.79999995 C6,3.35817218 6.35817218,3 6.79999995,3 L7,3 L9.5,3 C11.4329966,3 13,4.56700338 13,6.5 C13,8.43299662 11.4329966,10 9.5,10 L5,10 C4.44771525,10 4,10.4477153 4,11 C4,11.5522847 4.44771525,12 5,12 L5.8,12 C5.91045695,12 6,11.9104569 6,11.8 L6,11 C6,10.7238576 6.22385763,10.5 6.5,10.5 C6.77614237,10.5 7,10.7238576 7,11 Z"/>
+    </g>
+  </g>
+</svg>
