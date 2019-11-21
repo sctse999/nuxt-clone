@@ -9,7 +9,6 @@
 {{ range .Params.scripts }}
 {{ $file := printf "js/%s.js" . }}
 {{ $scripts := resources.Get $file | resources.ExecuteAsTemplate $file $context }}
-<script src = '{{ $scripts.Permalink }}'></script>
 <link rel="preload" href="{{ $scripts.Permalink }}" as="script">
 {{ end }}
 
