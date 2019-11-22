@@ -2,7 +2,7 @@
 title = "Genuine"
 date = 2019-11-18T19:07:01+03:00
 type = "genuine"
-scripts = ["b7bc0618", "a517f366", "e3479bae", "edcfc2ce", "904468bd"]
+scripts = ["187250ee", "f256288f", "e3479bae", "7a1774eb", "0aa24a68"]
 styles = ["8099003f", "94ae0fc7", "56998964"]
 +++
 
